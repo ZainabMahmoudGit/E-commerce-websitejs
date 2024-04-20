@@ -1,0 +1,148 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+}
+
+h2{
+    margin-bottom: 30px;
+    color: #333;
+
+}
+
+#navigation {
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+#navigation a:hover {
+    background-color: #4caf50;
+    color: white;
+}
+
+#cartItems {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.wishlist-icon {
+    font-size: 35px;
+    cursor: pointer;
+    margin-left: 50px;
+    padding: 0px 10px;
+    color: red;
+}
+
+#wishlistLink {
+    position: relative;
+}
+
+#wishlistCount {
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    display: none;
+}
+#wishlistCount:not(:empty) {
+    display: inline;
+}
+
+#cartLink {
+    position: relative;
+}
+
+#cartCount {
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    display: none;
+}
+#cartCount:not(:empty) {
+    display: inline;
+}
+.cart-item {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    text-align: left;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.cart-item-details {
+    margin-bottom: 10px;
+}
+
+.quantity-price span {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+.product-image {
+    max-height: 100px; 
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+}
+.product-image:hover {
+    transform: scale(3);
+}
+#checkoutButton{
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#checkoutButton:hover {
+    background-color: #219a52;
+}
